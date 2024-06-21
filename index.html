@@ -60,17 +60,27 @@
     <section id="intro">
           <h1 class="intro_us_title">數位創新 | 至匯同行</h1>
           <p class="intro_us_content">三個國家。舉辦過上百場演唱會。<br>加入我們使用 APP 轉帳給你們遠在他方的家人吧</p>
-
+          <img class="first-image" src="images/3d_transaction.jpg" >
           
     </section>
 
 
+  <!-- Features -->
+
+  <section id="exchange">
+    <h1 class="exchange_title">透過我們的 APP <br>減少跨境轉帳手續費</h1>
+    <p class="exchange_content">我們是台灣合法合規的小額匯兌交易所提<br>
+        供給東南亞客戶最優惠的跨境轉帳手續費<br>
+        以及市場上最好的匯率， 客戶可以使用右<br>
+        方的匯率計算機算出與其他小額匯兌交易<br>
+        所相比您省下多少本</p>
+  </section>
 
 
   <!-- Features -->
 
   <section id="features">
-    <div class="row ">
+
       <div class="wrap-widget">
         <!-- <i class="icon fas fa-check-circle fa-4x"></i> -->
         <h3 class="heading-title">經營理念</h3>
@@ -80,8 +90,8 @@
       </div>
       <div class="wrap-widget">
         <!-- <i class="icon fas fa-bullseye fa-4x"></i> -->
-        <h3 class="heading-title">發展沿革</h3>
-        <div id="part-2">
+        <h3 class="heading-title2">發展沿革</h3>
+        <div id="part-1">
             <p>2013年 -進入移工人力仲介及電子商務市場</p>
             <p>2014年 -經營OTT影音平台及拓展版權海外發行通路</p>
             <p>2015年 -擴大發展活動整合行銷業務，包括演唱會及活動的舉辦與執行</p>
@@ -90,7 +100,7 @@
             <p>2018年 -演唱會活動業務拓展至中國大陸地區</p>
             <p>2019年至今 -持續發展FinTech跨境匯款創新業務，開發金融科技APP平台，除現有印尼是場外也積極拓展越南、菲律賓等其他族群市場</p>
         </div>    
-    </div>
+
     </div>
   </section>
 
@@ -124,15 +134,13 @@
     </div>
   </section>
 
-  <section id="intropart">
-    <div class="name-part3">
-        <h3>我們的合作夥伴</h3>
-    </div>
-  </section>
 
 
   <!-- partner -->
 <section id="partner">
+    <div class="name-part3">
+        <h3>我們的合作夥伴</h3>
+    </div>
     <div id="gallery-1" class="gallery galleryid-149 gallery-columns-5 gallery-size-futurio-single">
     <dl class="gallery-item">
         <dt class="gallery-icon landscape">
@@ -226,50 +234,15 @@
 </section>
 
 
-  <!-- Action -->
-  <section id="cta">
-    <h2 class="title3">想了解我們更多嗎?</h2><br>
-    <h4 class="par3">有甚麼想法嗎? 直接見個面談談如何?</h4>
-  </section>
-
   <!-- Contact -->
   <section id="contact">
-    <h1 class="title4">聯絡我們</h1>
-    <p>
-        <button type="button" class="btn "><i class="fa fa-map-marker" style="color: #ffffff;">&nbsp;台北市內湖區南京東路六段501號4樓</i></button><br>
-        <button type="button" class="btn "><i class="fa fa-phone" style="color: #ffffff;">&nbsp;（02）2795-5959 (9:00-18:00)</i> </button><br>
-        <button type="button" class="btn "><i class="fas fa-envelope" style="color: #ffffff;">&nbsp;cs@digtalidea.com.tw</i></button>
-    </p>
-</section>
-
-  <!-- Footer -->
-  <footer id="footer">
     <p>Copyright © 2022 數位至匯股份有限公司 Digital Idea Multi-Media Co., Ltd.</p>
-  </footer>
+</section> 
+
+
 
   <script>
-    // $(document).ready(function() {
-    //   $(window).scroll(function() {
-    //     var scrollDistance = $(window).scrollTop();
-        
-    //     // Assign 'active' class to the corresponding nav-link based on scroll position
-    //     $('.nav-link').each(function() {
-    //       var sectionOffset = $($(this).attr('href')).offset().top - 100;
-          
-    //       if (scrollDistance >= sectionOffset) {
-    //         $('.nav-link').removeClass('active');
-    //         $(this).addClass('active');
-    //       }
-    //     });
 
-    //     // Manage fixed-top class based on scroll position
-    //     if (scrollDistance > 0) {
-    //       $('nav').addClass('fixed-top');
-    //     } else {
-    //       $('nav').removeClass('fixed-top');
-    //     }
-    //   });
-    // });
    let lastScrollTop = 0;
     navbar = document.getElementById("navbar");
       window.addEventListener("scroll", function(){
