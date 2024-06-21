@@ -1,7 +1,7 @@
 body {
   font-family: 'Montserrat';
   background-position: center;
-  
+  justify-content: center;
 }
 
 li{
@@ -73,6 +73,7 @@ header{
   height: 450px;
   margin: auto;
   border-radius: 25px;
+  align-items: center;
 }
 
 .exchange_title {
@@ -80,6 +81,7 @@ header{
   padding: 50px 70px 10px;
   text-align: left;
   font-size: 45px;
+  align-items: center;
 }
 
 .exchange_content {
@@ -88,13 +90,26 @@ header{
   text-align: left;
   font-size: 18px;
 }
+#start-transfer{
+  height: 450px;
+}
+.start-transfer_title{
+  color: black;
+  padding: 50px 90px 10px;
+  text-align: right;
+  font-size: 50px;
+  align-items: center;
+}
+
+#country-image {
+  text-align: left;
+}
 
 h1 {
   font-family: 'Montserrat';
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
-  margin-top: 120px;
 }
 
 h2 {
@@ -301,38 +316,29 @@ background: #888888;
 #partner{
   text-align: center;
   font-size: 20px;
-  padding: 15%;
+  padding: 5%;
 
 }
-
-/* @media (max-width:1028px) {
-  #title {
-    text-align: left;
-  }
-
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  } */
-/* } */
-
 
 #gallery-1 {
   margin: auto;
 }
+
 #gallery-1 .gallery-item {
   float: left;
   margin-top: 10px;
   text-align: center;
   width: 25%;
 }
+
 #gallery-1 img {
   border: 2px solid #cfcfcf;
 }
+
 #gallery-1 .gallery-caption {
   margin-left: 0;
 }
-/* see gallery_shortcode() in wp-includes/media.php */
+
 #navbar,#navbarNav{
   height:90px;
   transition: 1s;
@@ -375,10 +381,12 @@ background: #888888;
   font-weight: bold;
   padding: 5px 5px;
  }
+
  .underline{
   position: relative;
   transition: 1s;
  }
+
  .underline::before{
   content: "";
   position: absolute;
@@ -389,12 +397,30 @@ background: #888888;
   background-color: #ff0000;
   transition: .6s;
  }
+
  .underline:hover::before{
   width: 100%;
   left: 0;
 
  }
  .underline:hover{
-
   border-radius: 3px;
  }
+
+
+ #navbar .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; 
+  transition: .6s;
+  font-size: 12px;
+
+
+}
+
+#navbar .dropdown-item:hover {
+  background-color: #8fcc6c;
+  margin: 0 2px;
+  border-radius: 15px;
+  width: 95%;
+  font-size: 12px;
+}

@@ -32,33 +32,43 @@
 
 <body>
 
-  <nav class="navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
-    <img class="title-image" src="images/digital.png" href="index.html">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button> 
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link underline"  href="/page/about_us.html" id = "about2"> 關於我們</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link underline" href="/page/investor.html"  id = "investor2"> 投資人關係</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link underline" href="/page/people.html"  id = "partner2">人才招募</a>
-        </li>
-          <li class="nav-item">
-            <a class="nav-link underline" href="/page/contact.html"  id = "contact2"> 聯絡我們</a>
-          </li>
-      </ul>
-    </div>
-  </nav>
+    <nav class="navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+        <img class="title-image" src="images/digital.png" href="index.html">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link underline dropdown-toggle" href="/page/about_us.html" id="about2" role="button" aria-haspopup="true" aria-expanded="false"> 關於我們</a>
+              <div class="dropdown-menu" aria-labelledby="about2">
+                <a class="dropdown-item give_background" href="#exchange">匯率計算</a>
+                <a class="dropdown-item give_background" href="#features">經營理念</a>
+                <a class="dropdown-item give_background" href="#investor">公司業務</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link underline dropdown-toggle" href="/page/investor.html" id="investor2" role="button" aria-haspopup="true" aria-expanded="false"> 投資人關係</a>
+              <div class="dropdown-menu" aria-labelledby="investor2">
+                <a class="dropdown-item " href="#">每月營收報表</a>
+                <a class="dropdown-item" href="#">財務報表</a>
+                <a class="dropdown-item" href="#">董事會成員</a>
+              </div>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link underline" href="/page/people.html" id="partner2" role="button" aria-haspopup="true" aria-expanded="false"> 人才招募</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link underline" href="/page/contact.html" id="contact2" role="button" aria-haspopup="true" aria-expanded="false"> 聯絡我們</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
 
       <!-- Title -->
     <section id="intro">
-          <h1 class="intro_us_title">數位創新 | 至匯同行</h1>
+          <h1 class="intro_us_title">數位創新 . 至匯同行</h1>
           <p class="intro_us_content">三個國家。舉辦過上百場演唱會。<br>加入我們使用 APP 轉帳給你們遠在他方的家人吧</p>
           <img class="first-image" src="images/3d_transaction.jpg" >
           
@@ -76,7 +86,13 @@
         所相比您省下多少本</p>
   </section>
 
-
+  <section id="start-transfer">
+    <h1 class="start-transfer_title">下方是我們目前有的 APP <br>請選擇您的國家</h1>
+    <div id="country-image">
+        <img class="indogo-image" src="images/indogo.png" >
+        <img class="govn-image" src="images/govn.jpg" >
+    </div>
+  </section>
   <!-- Features -->
 
   <section id="features">
@@ -110,7 +126,7 @@
   <!-- Pricing -->
 
   <section id="investor">
-    <div class="row">
+    <!-- <div class="row">
         <div class=" sales-rep-column col-6 col-xs-6">
         <div class="card-body">
             <img src="images/金融科技服務.jpg" alt="Labrador Image" class="img-thumbnail  custom-image">
@@ -131,7 +147,7 @@
             <img src="images/演唱會活動.jpg" alt="Labrador Image" class="img-thumbnail  custom-image">
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
 
 
@@ -141,7 +157,7 @@
     <div class="name-part3">
         <h3>我們的合作夥伴</h3>
     </div>
-    <div id="gallery-1" class="gallery galleryid-149 gallery-columns-5 gallery-size-futurio-single">
+    <!-- <div id="gallery-1" class="gallery galleryid-149 gallery-columns-5 gallery-size-futurio-single">
     <dl class="gallery-item">
         <dt class="gallery-icon landscape">
             <img decoding="async" width="227" height="91" src="https://dev.digitalidea.com.tw/wp-content/uploads/2022/05/logo_22-1.jpg" class="attachment-futurio-single size-futurio-single" alt="">
@@ -229,7 +245,7 @@
         <dt class="gallery-icon landscape">
             <img loading="lazy" decoding="async" width="227" height="91" src="https://dev.digitalidea.com.tw/wp-content/uploads/2022/05/logo_6.jpg" class="attachment-futurio-single size-futurio-single" alt="">
         </dt></dl><br style="clear: both">
-    </div>
+    </div> -->
 
 </section>
 
